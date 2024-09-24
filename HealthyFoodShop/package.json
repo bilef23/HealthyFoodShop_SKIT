@@ -1,0 +1,21 @@
+{
+  "name": "healthyfoodshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node manage.py runserver",
+    "start:coverage": "NODE_ENV=test nyc npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@cypress/code-coverage": "^3.13.1",
+    "babel-plugin-istanbul": "^7.0.0",
+    "nyc": "^17.1.0"
+  }
+}
